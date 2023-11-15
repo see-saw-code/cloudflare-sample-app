@@ -3,6 +3,11 @@
  * and registration.
  */
 
+export const TEST_COMMAND = {
+  name: 'test',
+  description: 'A test command',
+};
+
 export const AWW_COMMAND = {
   name: 'awwww',
   description: 'Drop some cuteness on this channel.',
