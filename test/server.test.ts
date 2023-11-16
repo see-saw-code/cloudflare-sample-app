@@ -5,10 +5,10 @@ import {
   InteractionType,
   InteractionResponseFlags,
 } from 'discord-interactions';
-import { AWW_COMMAND, INVITE_COMMAND } from '../src/commands.js';
+import { AWW_COMMAND, INVITE_COMMAND } from '../src/commands';
 import sinon from 'sinon';
-import server from '../src/server.js';
-import { redditUrl } from '../src/reddit.js';
+import server from '../src/server';
+import { redditUrl } from '../src/reddit';
 
 describe('Server', () => {
   describe('GET /', () => {

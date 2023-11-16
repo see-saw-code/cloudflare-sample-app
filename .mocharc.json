@@ -1,5 +1,5 @@
 {
-    "extensions": ["js", "ts"],
+    "extension": ["js", "ts", ".jsx", ".tsx"],
     "node-option": [
         "experimental-specifier-resolution=node",
         "import=tsx/esm"
