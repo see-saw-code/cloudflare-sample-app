@@ -10,7 +10,7 @@ import {
 } from 'discord-interactions';
 import { TEST_COMMAND, AWW_COMMAND, INVITE_COMMAND } from './commands.js';
 import { getCuteUrl } from './reddit.js';
-import { handleTestCommand } from './my.js';
+import { handleTestCommand } from './my';
 import { InteractionResponseFlags } from 'discord-interactions';
 
 class JsonResponse extends Response {
